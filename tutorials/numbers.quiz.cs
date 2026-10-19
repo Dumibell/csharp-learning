@@ -28,7 +28,7 @@
 // Q4.
 // int big = int.MaxValue;
 // Console.WriteLine(big + 1);
-// 답: 
+// 답: int.MinValue
 
 // Q5. (h는 double인데...?)
 // double h = 7 / 2;
@@ -78,8 +78,8 @@ void ShoppingTotal()
     decimal itemPrice = 1234.50M;
     decimal total = itemPrice * 3;
     decimal 최종 = total * 0.9M;
-
-    Console.WriteLine(최종);
+    // 돈계산이라 decimal 써야되고 그럼 뒤에 M 붙여야되서
+    Console.WriteLine(최종); 
 }
 
 // P3. 반지름이 3인 구의 부피 출력하기
